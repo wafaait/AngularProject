@@ -1,0 +1,17 @@
+{
+  "home": {
+    "TITLE": "Bonjour angular avec ngx translate FR ",
+    "TEXT": "cette démostrtaion est créer avec ngx translate",
+    "SELECT": "Selectionner une langue"
+  },
+  "homePage": {
+    "TEMPLATE": "La Template",
+    "TEXT":"Tinker est un modèle HTML CSS gratuit de templatemo.com qui peut être utilisé pour tout type de site Web. Merci de parler de nous à vos amis. Merci.",
+    "BUTTON": "Commançant"
+  },
+  "blogPage": {
+    "PAGETITLE": "Nos articles de blog",
+    "DESCRIPTION": "Dans cette section, j'ai fait de mon mieux pour inclure des exemples de description de blogs des meilleurs blogs de divers créneaux comme la technologie, la santé, le fitness, les voyages, le style de vie, etc."
+
+  }
+}

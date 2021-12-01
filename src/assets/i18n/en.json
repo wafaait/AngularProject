@@ -1,3 +1,19 @@
 {
-  "home"
+  "home": {
+    "TITLE": "hello angular with ngx translator",
+    "TEXT": "this demo hase been created using  ngx translate",
+    "SELECT": "Select Language"
+  },
+  "homePage": {
+    "TEMPLATE": "Template",
+    "TEXT": "Tinker is free HTML CSS template from templatemo.com that can be used for any kind of website. Please tell your friends about us. Thank you.",
+    "BUTTON": "Let's Start"
+
+  },
+  "blogPage": {
+    "PAGETITLE": "Our Blog post",
+    "DESCRIPTION": "In this section, I have done my best to include blog description examples of top blogs from various niches like tech, health, fitness, travel, lifestyle, etc."
+
+  }
+
 }

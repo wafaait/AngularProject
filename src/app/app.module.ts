@@ -10,7 +10,13 @@ import { ContactComponent } from './components/contact/contact.component';
 import { PortfolioComponent } from './components/portfolio/portfolio.component';
 import { FeedbackComponent } from './components/feedback/feedback.component';
 import { FooterComponent } from './components/footer/footer.component';
+import {TranslateModule,TranslateLoader} from '@ngx-translate/core';
+import {TranslateHttpLoader} from '@ngx-translate/http-loader';
+import {HttpClientModule,HttpClient} from '@angular/common/http';
 
+export function  HttploaderFactory(http:HttpClient){
+  return new TranslateHttpLoader(http);
+}
 
 
 @NgModule({
@@ -28,10 +34,19 @@ import { FooterComponent } from './components/footer/footer.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    TranslateModule.forRoot({
+      loader:{
+        provide :TranslateLoader,
+        useFactory :HttploaderFactory ,
+        deps :[HttpClient],
+      }
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
 
